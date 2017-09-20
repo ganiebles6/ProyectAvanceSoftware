@@ -23,7 +23,7 @@ and open the template in the editor.
             <div class="row">
                 <div class="col s12">
                     <div class="row">
-                        <div class="col s4 l4">
+                        <div class="col s4">
                             <h3 id="title"><span class="blue-text text-lighten-5">Gestión de Productos</span></h3>
                         </div>
                         <div class="col s4">
