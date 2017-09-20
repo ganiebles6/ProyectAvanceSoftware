@@ -1,7 +1,5 @@
 <?php
-echo "Hola";
 if (!isset($_REQUEST['c'])) {
-
     require_once 'Controlador/Controlador.php';
     $controller = new Controlador();
     $controller->IndexDefault();
