@@ -21,17 +21,17 @@ and open the template in the editor.
 
         <div class="card-panel teal darken-4">
             <div class="row">
-                <div class="col s12">
+                <div class="col s12 l12">
                     <div class="row">
                         <div class="col s4 l5">
                             <h3 id="title"><span class="blue-text text-lighten-5">Gestión de Productos</span></h3>
                         </div>
-                        <div class="col s4 l5">
+                        <div class="col s4 l3">
                         </div>
-                        <div class="col s2 l4">
+                        <div class="col s2 l2">
                             <button class="waves-effect waves-light btn-large modal-trigger" href="#MyModal" id="new-product"><i class="material-icons left">add</i>Nuevo Producto</button>
                         </div>
-                        <div class="col s2 l3">
+                        <div class="col s2 l2">
                             <button class="waves-effect waves-light btn-large modal-trigger" href="#ModalBodega"><i class="material-icons left">add</i>Nueva Bodega</button>
                         </div>
                     </div>
