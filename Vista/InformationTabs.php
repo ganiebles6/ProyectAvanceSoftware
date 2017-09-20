@@ -40,7 +40,7 @@
 
 <div id="modal-delete-bodega" class="contenido-modal-delete-bodega">
     <div class="contenido-modal">
-        <header class="modalheader red"> 
+        <header class="modalheader red darken-4"> 
             <span onclick="document.getElementById('modal-delete-bodega').style.display = 'none'" class="buton-close-modal displayclosemodal">&times;</span>
             <h4>Atención</h4>
         </header>
@@ -48,7 +48,7 @@
             <p>Some text..</p>
             <p>Some text..</p>
         </div>
-        <footer class="modal-content-my red">
+        <footer class="modal-content-my red darken-4">
             <p>Modal Footer</p>
         </footer>
     </div>
