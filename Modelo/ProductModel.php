@@ -164,6 +164,7 @@ class ProductModel {
         }
 
         $this->conexion->close();
+        header("Location:index.php");
     }
 
     function BorrarProducto(ProductModel $id) {
