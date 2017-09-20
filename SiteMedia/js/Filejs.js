@@ -200,6 +200,7 @@ function DeleteBodega() {
 
 }
 
+
 //$(document).ready(function(){
 //    $("button").click(function(){
 //        $.get("Controlador/BodegaController.php", function(data, status){

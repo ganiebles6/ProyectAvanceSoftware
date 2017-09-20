@@ -7,8 +7,6 @@
         <option value="" selected>Elije una opción</option>
         <option value="numero">Número</option>
         <option value="producto">Nombre</option>
-        <option value="bodega">Bodega</option>
-        <option value="cantidad">Cantidad</option>
     </select>
     <label>Filtrar productos por:</label>
 </div>
@@ -42,15 +40,15 @@
 
 <div id="modal-delete-bodega" class="contenido-modal-delete-bodega">
     <div class="contenido-modal">
-        <header class="modalheader teal lighten1"> 
+        <header class="modalheader red darken-4"> 
             <span onclick="document.getElementById('modal-delete-bodega').style.display = 'none'" class="buton-close-modal displayclosemodal">&times;</span>
-            <h4>Modal Header</h4>
+            <h4>Atención</h4>
         </header>
         <div class="modal-content-my">
             <p>Some text..</p>
             <p>Some text..</p>
         </div>
-        <footer class="modal-content-my teal lighten-2">
+        <footer class="modal-content-my red darken-4">
             <p>Modal Footer</p>
         </footer>
     </div>
