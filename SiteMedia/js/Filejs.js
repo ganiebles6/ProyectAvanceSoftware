@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-var numProducto = 0, xmlhttp = null, search, wordKeyfiltrer = "";
+var numProducto = 0, xmlhttp = null, search, wordKeyfiltrer = "", id_bodega = 0;
 
 $(document).ready(function () {
 
@@ -193,13 +193,17 @@ function ShowInformationTabs() {
 
 }
 
-function DeleteBodega() {
+function DeleteBodega(check) {
+    var temp = check.id;
+    var nombreBodega = $("#" + temp).parents("tr").find("td")[1].innerHTML;
+    document.getElementById("aviso-delete").innerHTML = "¿Desea eliminar la bodega " + nombreBodega + "?";
+    id_bodega = temp;
     document.getElementById("modal-delete-bodega").style.display = 'block';
-    var valores = $("a").parents("tr").find("td")[0].innerHTML;
-    console.log(valores);
-
 }
-
+function ConfirmDeleteBodega() {
+    // body...
+    alert(id_bodega);
+}
 
 //$(document).ready(function(){
 //    $("button").click(function(){

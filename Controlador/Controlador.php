@@ -97,7 +97,9 @@ class Controlador {
     private function QueryAllDataBodega() {
         $this->model1->ShowDataBodega();
     }
-
+    public function DeleteBodega(){
+        $this->model1->DropBodega($_REQUEST['id_b']);
+    }
 }
 
 //6 campos de la base de datos, el último es default

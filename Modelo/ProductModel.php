@@ -317,13 +317,19 @@ class ProductModel {
                 echo "<td>$resultados[0]</td>";
                 echo "<td>$resultados[1]</td>";
                 echo "<td>";
-                echo "<a href='#' class='tooltipped' data-position='top' data-tooltip='Eliminar' onclick='DeleteBodega();' id='eliminar'><i class='tiny material-icons red-text text-darken-4'>delete</i></a>"
+                echo "<a href='#' class='tooltipped' data-position='top' data-tooltip='Eliminar' onclick='DeleteBodega(this);' id='$resultados[0]'><i class='tiny material-icons red-text text-darken-4'>delete</i></a>"
                 . "<a href='#' class='tooltipped' data-position='top' data-tooltip='Editar'><i class='tiny material-icons green-text text-darken-4'>edit</i></a>"
                 . "<a href='#' class='tooltipped' data-position='top' data-tooltip='Agregar'><i class='tiny material-icons blue-text text-darken-4'>add</i></a>";
                 echo "</td>";
                 echo "</tr>";
             }
         }
+    }
+
+    public function DropBodega($value)
+    {
+        # code...
+        echo "ya estamos listos $value";
     }
 
 }

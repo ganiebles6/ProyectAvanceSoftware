@@ -45,11 +45,10 @@
             <h4>Atención</h4>
         </header>
         <div class="modal-content-my">
-            <p>Some text..</p>
-            <p>Some text..</p>
+            <p id="aviso-delete"></p>
         </div>
-        <footer class="modal-content-my red darken-4">
-            <p>Modal Footer</p>
+        <footer class="modalfooter red darken-4">
+            <button class="waves-effect waves-light btn red darken-1" id="butonmodalfooter" onclick="ConfirmDeleteBodega()"><i class="tiny material-icons right">delete</i>Aceptar</button>
         </footer>
     </div>
 </div>
