@@ -48,7 +48,7 @@
             <p id="aviso-delete"></p>
         </div>
         <footer class="modalfooter red darken-4">
-            <button class="waves-effect waves-light btn red darken-1" id="butonmodalfooter" onclick="ConfirmDeleteBodega()"><i class="tiny material-icons right">delete</i>Aceptar</button>
+            <button class="waves-effect waves-light btn red darken-2" id="butonmodalfooter" onclick="ConfirmDeleteBodega()"><i class="tiny material-icons right">delete</i>Aceptar</button>
         </footer>
     </div>
 </div>
