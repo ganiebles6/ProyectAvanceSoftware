@@ -19,8 +19,8 @@ class Conexion {
 
     function __construct() {
         $this->host = "localhost";
-        $this->user = "systemadmin";
-        $this->password = "Delfin321";
+        $this->user = "root";
+        $this->password = "toor";
         $this->database = "avancesoftware";
     }
 
