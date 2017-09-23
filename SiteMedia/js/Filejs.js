@@ -199,10 +199,25 @@ function DeleteBodega(check) {
     document.getElementById("aviso-delete").innerHTML = "¿Desea eliminar la bodega " + nombreBodega + "?";
     id_bodega = temp;
     document.getElementById("modal-delete-bodega").style.display = 'block';
+    $("body").css("overflow", "hidden");
 }
 function ConfirmDeleteBodega() {
     // body...
-    alert(id_bodega);
+    //alert(id_bodega);
+    document.getElementById("modal-delete-bodega").style.display = 'none';
+    $("body").css("overflow", "auto");
+        xmlhttp.onreadystatechange = function () {
+        if (xmlhttp.readyState === 1) {
+         document.getElementById("container-confirm-delete").style.display = 'block';
+        }
+        if (xmlhttp.readyState === 4 && xmlhttp.status === 200) {
+            alert("Hola");
+         window.location.href = "index.php";
+        }
+    };
+        xmlhttp.open("POST", "index.php", true);
+        xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        xmlhttp.send("a=DeleteBodega&c=Bodega&id_b=" + id_bodega);
 }
 
 //$(document).ready(function(){

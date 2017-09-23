@@ -52,3 +52,8 @@
         </footer>
     </div>
 </div>
+<div id="container-confirm-delete">
+    <div class="progress" id="container-progress">
+      <div class="indeterminate"></div>
+  </div>
+</div>
